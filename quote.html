@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Request Quote - Triple Shift Auto &amp; Truck Repair</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="simple-header">
+    <a href="index.html" class="logo-link"><img src="assets/img/logo.png" alt="logo"></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="quote.html">Request Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Request a Quote</h1>
+    <form id="quoteForm">
+      <label>Company / Name<input type="text" name="name" required></label>
+      <label>Phone<input type="tel" name="phone" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Truck Make/Model<input type="text" name="vehicle" required></label>
+      <label>Service Needed<textarea name="message" rows="4" required></textarea></label>
+      <div class="form-row">
+        <button class="btn btn-red" type="submit">Request Quote</button>
+      </div>
+    </form>
+    <div id="quoteResult" class="hidden"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div>Contact: <a href="mailto:Tripleshiftautotruckrepair@gmail.com">Tripleshiftautotruckrepair@gmail.com</a> • <a href="tel:720-675-8723">720-675-8723</a></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
